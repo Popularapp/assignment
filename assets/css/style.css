@@ -1,0 +1,541 @@
+/* Manrope Font Family */
+
+@font-face { font-family: Manrope-Regular; src: url('../fonts/Manrope/Manrope-Regular.ttf'); }
+@font-face { font-family: Manrope-Bold; src: url('../fonts/Manrope/Manrope-Bold.ttf'); }
+@font-face { font-family: Manrope-Light; src: url('../fonts/Manrope/Manrope-Light.ttf'); }
+@font-face { font-family: Manrope-ExtraBold; src: url('../fonts/Manrope/Manrope-ExtraBold.ttf'); }
+@font-face { font-family: Manrope-ExtraLight; src: url('../fonts/Manrope/Manrope-ExtraLight.ttf'); }
+@font-face { font-family: Manrope-Medium; src: url('../fonts/Manrope/Manrope-Medium.ttf'); }
+@font-face { font-family: Manrope-SemiBold; src: url('../fonts/Manrope/Manrope-SemiBold.ttf'); }
+
+html ,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Manrope-Regular;
+}
+
+.row {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: white !important;
+}
+
+.navbar .navbar-brand img{
+    height: 28px !important;
+}
+
+.navbar .container {
+    max-width: 80%;
+    padding: 0;
+}
+
+/* .navbar .navbar-nav {
+} */
+
+.navbar .navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    /* background-color: red; */
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    color: #787676;
+}
+
+/* .navbar .navbar-nav .nav-item:nth-child(6) {
+} */
+
+.navbar .navbar-nav .nav-item:nth-child(6) .assistance {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #939191;
+    padding: 0px 0px 0px 20px;
+}
+
+.navbar .navbar-nav .nav-item:nth-child(6) .assistance img {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar .navbar-nav .nav-item:nth-child(6) .assistance .text {
+    padding: 0px 0px 0px 10px;
+}
+
+.navbar .navbar-nav .nav-item:nth-child(6) .assistance .text p{
+    margin: 0;
+}
+
+.navbar .navbar-nav .nav-item:nth-child(6) .assistance .text p:nth-child(1) {
+    color: #787676;
+    font-size: 16px;
+}
+
+.navbar .navbar-nav .nav-item:nth-child(6) .assistance .text p:nth-child(2) {
+    font-family: Manrope-SemiBold;
+    font-size: 18px;
+}
+
+
+/* Hero Section */
+.hero_section {
+    background-color: white;
+    padding: 40px 10px;
+}
+
+.hero_section .container{
+    max-width: 80%;
+    padding: 0 0px;
+    /* overflow: hidden; */
+}
+
+.hero_section .container .row .col-lg-6 {
+    padding: 0;
+    overflow: hidden;
+    /* display: flex;
+    align-items: center; */
+}
+
+.hero_section .container .row .col-lg-6 .booking-section {
+    width: 100%;
+    /* background-color: tomato; */
+    padding: 0px 20px 0px 0px;
+}
+
+.hero_section .container .row .col-lg-6 .booking-section .button .btn {
+    background-color: #FF6433;
+    border-radius: 12px;
+    border: 0px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Manrope-SemiBold;
+}
+
+.hero_section .container .row .col-lg-6 .booking-section .sub_text {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    margin-top: 10px;
+}
+
+.hero_section .container .row .col-lg-6 .booking-section .sub_text .text {
+    padding: 0px 0px 0px 10px;
+}
+
+.hero_section .container .row .col-lg-6 .booking-section .sub_text .text p{
+    margin: 0;
+}
+
+.hero_section .container .row .col-lg-6 .booking-section .sub_text .text p:nth-child(1) {
+    color: #939191;
+    font-size: 16px;
+    font-family: Manrope-Medium;
+}
+
+.hero_section .container .row .col-lg-6 .booking-section .sub_text .text p:nth-child(2) {
+    font-family: Manrope-SemiBold;
+    font-size: 18px;
+}
+
+.hero_section .container .row .col-lg-6 .booking-section h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-family: Manrope-ExtraBold;
+}
+
+.hero_section .container .row .col-lg-6:nth-child(2) {
+    position: relative; 
+    overflow: unset;  
+}
+
+.hero_section .container .row .col-lg-6 .image {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    position: relative;
+    z-index: 0;
+    padding: 25px 0px 25px 0px;
+}
+
+.hero_section .container .row .col-lg-6 .image img {
+    width: 100%;
+}
+
+.hero_section .container .row .col-lg-6 .quick_service {
+    position: absolute;
+    top: 60px;
+    left: -30px;
+    background-color: rgba(218, 218, 218, 0.43);
+    padding: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+}
+
+.hero_section .container .row .col-lg-6 .quick_service .inside {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.hero_section .container .row .col-lg-6 .quick_service .inside img {
+    max-width: 60px;
+}
+
+.hero_section .container .row .col-lg-6 .quick_service .inside a {
+    font-family: Manrope-SemiBold;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.hero_section .container .row .col-lg-6 .rating {
+    position: absolute;
+    bottom: 80px;
+    right: -30px;
+    background-color: rgba(218, 218, 218, 0.43);
+    padding: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+}
+
+.hero_section .container .row .col-lg-6 .rating .inside {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.hero_section .container .row .col-lg-6 .rating .inside img {
+    height: 30px;
+}
+
+.hero_section .container .row .col-lg-6 .rating .inside .text {
+    padding: 0px 10px 0px 10px;
+}
+
+.hero_section .container .row .col-lg-6 .rating .inside .text p{
+    margin: 0;
+}
+
+.hero_section .container .row .col-lg-6 .rating .inside .text p:nth-child(2) {
+    color: #939191;
+    font-size: 16px;
+    font-family: Manrope-Medium;
+}
+
+.hero_section .container .row .col-lg-6 .rating .inside .text p:nth-child(1) {
+    font-family: Manrope-SemiBold;
+    font-size: 24px;
+}
+
+.quote {
+    background-color: #E2E6E9;
+    padding: 80px 10px;
+    margin-top: 30px;
+}
+
+.quote .container{
+    max-width: 80%;
+    padding: 0 0px;
+    /* overflow: hidden; */
+}
+
+.quote .container .row .col-lg-6 {
+    padding: 0;
+    overflow: hidden;
+}
+
+.quote .container .row .col-lg-6 .booking-section h1 {
+    margin: 0;
+    font-family: Manrope-ExtraBold;
+    font-size: 2.8rem;
+}
+
+.quote .container .row .col-lg-6 .booking-section .sub_para {
+    font-family: Manrope-Medium;
+    font-size: 16px;
+    margin: 16px 0px 0px 0px;
+    color: #787676;
+}
+
+.quote .container .row .col-lg-6 .booking-section .sub_text {
+    display: flex;
+    /* align-items: center; */
+    padding: 0px 0px 0px 0px;
+    margin-top: 20px;
+}
+
+.quote .container .row .col-lg-6 .booking-section .sub_text img {
+    width: 47px;
+    height: 47px;
+}
+
+.quote .container .row .col-lg-6 .booking-section .button .btn {
+    background-color: #FF6433;
+    border-radius: 12px;
+    border: 0px;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Manrope-SemiBold;
+}
+
+.quote .container .row .col-lg-6 .booking-section .sub_text .text {
+    padding: 0px 0px 0px 20px;
+}
+
+.quote .container .row .col-lg-6 .booking-section .sub_text .text p{
+    margin: 0;
+}
+
+.quote .container .row .col-lg-6 .booking-section .sub_text .text p:nth-child(2) {
+    color: #939191;
+    font-size: 16px;
+    font-family: Manrope-Medium;
+    margin-top: 10px;
+}
+
+.quote .container .row .col-lg-6 .booking-section .sub_text .text p:nth-child(1) {
+    font-family: Manrope-SemiBold;
+    font-size: 24px;
+}
+
+.quote .container .row .col-lg-6 .booking-section .sub_text .text p:nth-child(3) {
+    font-family: Manrope-SemiBold;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.quote .container .row .col-lg-6 .booking-section .sub_text .text p:nth-child(3) span {
+    margin-left: 20px;
+}
+
+.quote .container .row .col-lg-6 .booking-section .sub_text .text p:nth-child(3) span img {
+    height: 15px;
+}
+
+.quote .container .row .col-lg-6 .form_section {
+    padding: 10px 0px;
+}
+
+.quote .container .row .col-lg-6 .form_section .form {
+    width: 100%;
+}
+
+.quote .container .row .col-lg-6 .form_section .form .button .btn {
+    background-color: #FF6433;
+    border-radius: 12px;
+    border: 0px;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Manrope-SemiBold;
+}
+
+
+.quote .container .row .col-lg-6 .form_section .form .form-group {
+    width: 100%;
+    margin: 4px 0px;
+}
+
+.quote .container .row .col-lg-6 .form_section .form .form-group .form-control {
+    width: 100%;
+    height: 72px;
+    border: 0;
+    padding: 10px 30px;
+    color: #787676;
+}
+
+.quote .container .row .col-lg-6 .form_section h2 {
+    margin: 0;
+    font-family: Manrope-Bold;
+    font-size: 2.2rem;
+}
+
+.steps {
+    background-color: white;
+}
+
+.steps .container .row .col-lg-6 .booking-section .sub_text .text p:nth-child(2) {
+    color: #939191;
+    font-size: 18px;
+    font-family: Manrope-Medium;
+    margin-top: 10px;
+}
+
+.steps .container .row .col-lg-6 .booking-section .sub_text .text p:nth-child(1) {
+    font-family: Manrope-Bold;
+    font-size: 32px;
+}
+
+.steps .container .row .col-lg-6 .booking-section .sub_text img {
+    width: 70px;
+    height: 150px;
+} 
+
+.offer {
+    background-color: #F2F2F2;
+}
+
+.offer .sub_para {
+    color: #939191;
+    font-size: 24px;
+    font-family: Manrope-Medium;
+    text-align: center;
+    margin-bottom: 8px 0px;
+}
+
+.offer .sub_heading {
+    margin: 0;
+    font-family: Manrope-ExtraBold;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.offer .row .col-lg-3 {
+    padding: 5px;
+}
+
+.offer .row .card {
+    border: 0;
+    /* padding: 70px 0px; */
+    height: 232px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.offer .row .card:hover {
+    background-color: #FF6433;
+}
+
+.offer .row .card .sub_card {
+    text-align: center;
+}
+
+.offer .row .card .sub_card img {
+    width: 44px;
+    filter: brightness(0%);
+    transition: 0.3s ease-in;
+}
+
+.offer .row .card .sub_card p {
+    font-size: 20px;
+    font-family: Manrope-SemiBold;
+    color: #1e1b1b;
+    margin: 16px 0px 0px 0px;
+    transition: 0.3s ease-in;
+}
+
+.offer .row .card:hover .sub_card p {
+    color: white;
+}
+
+.offer .row .card:hover .sub_card img {
+    color: white;
+    filter: brightness(5000%);
+}
+
+/* Media Queries */
+
+/* Maximum Size -- 576px */
+
+@media screen and (max-width: 576px) {
+    .hero_section {
+        background-color: white;
+        padding: 10px 10px;
+    }
+
+    .hero_section .container .row .col-lg-6 .image {
+      padding: 25px 0px;
+    }
+
+    .hero_section .container .row .col-lg-6 .booking-section h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        font-family: Manrope-ExtraBold;
+    }
+
+    .hero_section .container .row .col-lg-6 .quick_service {
+        top: 30px;
+    }
+
+    .hero_section .container .row .col-lg-6 .rating {
+        bottom: 30px;
+    }
+
+    .hero_section .container .row .col-lg-6 .quick_service .inside a {
+        font-family: Manrope-SemiBold;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .hero_section .container .row .col-lg-6 .quick_service .inside img {
+        max-width: 40px;
+    }
+
+    .hero_section .container .row .col-lg-6 .rating .inside img {
+        height: 20px;
+    }
+    
+    .hero_section .container .row .col-lg-6 .rating .inside .text p:nth-child(2) {
+        color: #939191;
+        font-size: 14px;
+        font-family: Manrope-Medium;
+    }
+    
+    .hero_section .container .row .col-lg-6 .rating .inside .text p:nth-child(1) {
+        font-family: Manrope-SemiBold;
+        font-size: 16px;
+    }
+
+    .quote .container .row .col-lg-6 .booking-section h1 {
+        margin: 0;
+        font-family: Manrope-ExtraBold;
+        font-size: 2.2rem;
+    }
+
+    .offer .sub_heading {
+        margin: 0;
+        font-family: Manrope-ExtraBold;
+        font-size: 2.0rem;
+        text-align: center;
+    }
+
+    .quote .container .row .col-lg-6 .form_section h2 {
+        font-family: Manrope-Bold;
+        font-size: 1.8rem;
+        margin-top: 50px;
+    }
+
+    .step_inside_2 {
+        margin-top: 80px !important;
+    }
+}
